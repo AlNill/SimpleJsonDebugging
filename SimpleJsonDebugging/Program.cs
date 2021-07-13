@@ -6,7 +6,7 @@ namespace SimpleJsonDebugging
     {
         static void Main(string[] args)
         {
-            System.Text.Json.JsonSerializer.Serialize("");
+            System.Text.Json.JsonSerializer.Serialize("Hello from feature");
             Console.WriteLine("Hello World!");
         }
     }
